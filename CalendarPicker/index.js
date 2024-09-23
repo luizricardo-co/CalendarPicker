@@ -9,15 +9,15 @@ import MonthSelector from './MonthSelector';
 import YearSelector from './YearSelector';
 import Scroller from './Scroller';
 
-import { addMonths } from 'date-fns/addMonths';
-import { getMonth } from 'date-fns/getMonth';
-import { getYear } from 'date-fns/getYear';
-import { isAfter } from 'date-fns/isAfter';
-import { isBefore } from 'date-fns/isBefore';
-import { isSameDay } from 'date-fns/isSameDay';
-import { isSameMonth } from 'date-fns/isSameMonth';
-import { startOfMonth } from 'date-fns/startOfMonth';
-import { subMonths } from 'date-fns/subMonths';
+import { addMonths } from 'moment';
+import { getMonth } from 'moment';
+import { getYear } from 'moment';
+import { isAfter } from 'moment';
+import { isBefore } from 'moment';
+import { isSameDay } from 'moment';
+import { isSameMonth } from 'moment';
+import { startOfMonth } from 'moment';
+import { subMonths } from 'moment';
 
 export default class CalendarPicker extends Component {
   constructor(props) {

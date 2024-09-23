@@ -8,9 +8,9 @@ import {
   Switch,
 } from 'react-native';
 
-import { addDays } from 'date-fns/addDays';
-import { format } from 'date-fns/format';
-import { subDays } from 'date-fns/subDays';
+import { addDays } from 'moment';
+import { format } from 'moment';
+import { subDays } from 'moment';
 
 import CalendarPicker from './CalendarPicker';
 

@@ -6,12 +6,12 @@ import {
 } from 'react-native';
 import PropTypes from 'prop-types';
 
-import { differenceInDays } from 'date-fns/differenceInDays';
-import { isAfter } from 'date-fns/isAfter';
-import { isBefore } from 'date-fns/isBefore';
-import { isSameDay } from 'date-fns/isSameDay';
-import { isWithinInterval } from 'date-fns/isWithinInterval';
-import { startOfDay } from 'date-fns/startOfDay';
+import { differenceInDays } from 'moment';
+import { isAfter } from 'moment';
+import { isBefore } from 'moment';
+import { isSameDay } from 'moment';
+import { isWithinInterval } from 'moment';
+import { startOfDay } from 'moment';
 
 export default function Day(props) {
   const {

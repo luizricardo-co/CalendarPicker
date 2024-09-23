@@ -6,7 +6,7 @@ import Day from './Day';
 import EmptyDay from './EmptyDay';
 import { Utils } from './Utils';
 
-import { getISODay } from 'date-fns/getISODay';
+import { getISODay } from 'moment';
 
 export default class DaysGridView extends Component {
   constructor(props) {

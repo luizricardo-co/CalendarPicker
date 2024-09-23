@@ -7,8 +7,8 @@ import {
 import PropTypes from 'prop-types';
 import { Utils } from './Utils';
 
-import { getMonth } from 'date-fns/getMonth';
-import { getYear } from 'date-fns/getYear';
+import { getMonth } from 'moment';
+import { getYear } from 'moment';
 
 export default function Month(props) {
   const {

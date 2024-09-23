@@ -6,11 +6,11 @@ import {
 } from 'react-native';
 import PropTypes from 'prop-types';
 
-import { getMonth } from 'date-fns/getMonth';
-import { getYear } from 'date-fns/getYear';
-import { isAfter } from 'date-fns/isAfter';
-import { isBefore } from 'date-fns/isBefore';
-import { startOfMonth } from 'date-fns/startOfMonth';
+import { getMonth } from 'moment';
+import { getYear } from 'moment';
+import { isAfter } from 'moment';
+import { isBefore } from 'moment';
+import { startOfMonth } from 'moment';
 
 export default function Year(props) {
   const {
